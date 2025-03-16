@@ -1,0 +1,9 @@
+{
+    "loginPage":{
+        "fieldWorkers":[{"username":"dyutisunderdutta100@gmail.com","password":"Maa@0804puja"}],
+        "districtAdmin":[],
+        "superAdmin":[],
+        "stateAdmin":[],
+        "superUser":[]
+    }
+}

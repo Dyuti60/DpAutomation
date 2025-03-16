@@ -1,0 +1,21 @@
+{
+    "loginPage":{
+        "fieldWorkers":[{"username":"shakti@test.com","password":"Test@1234"}],
+        "districtAdmin":[{"username":"district.bengal@gmail.com","password":"Test@1234"}],
+        "superAdmin":[{"username":"super_admin@gmail.com","password":"Test@1234"}],
+        "stateAdmin":[{"username":"state.bengal@gmail.com","password":"Test@1235"}],
+        "superUser":[{"username":"super_user@gmail.com","password":"Test@1234"}]
+    },
+    "Registration":[{
+        "firstName" : "Anushka",
+        "lastName" : "Baroi",
+        "contactNumber" : "8787564686",
+        "email" : "anushka@gmail.com",
+        "password" : "Test@1234",
+        "confirmPassword" : "Test@1234",
+        "address" : "Jorhat, Assam",
+        "pincode" : "785001",
+        "state" : "Assam",
+        "district" : "Jorhat"
+        }]
+}

@@ -1,0 +1,39 @@
+{
+    "Assertion":[
+        {
+        "loginPageAssertion":{
+            "actualTitleContent":"DP Works",
+            "actualLoginPageHeadingContent" : "Login to dp",
+            "actualforgetButtonContent" : "Forgot password?",
+            "actualRegistrationDoneLinkContent" : "Not registered with DP Works?",
+            "actualRegisterNowButtonContent" : "Register now",
+            "actualPolicyContent" : " By getting started, you agree to our "
+        }
+        },
+        {
+        "forgetPasswordAssertion":{
+
+            }
+        },
+        {
+        "registerPageAssertion":{
+            "actualAlreadyRegistertedWebLabelContent" : "Already registered with DP Works?"
+            }
+        },
+        {
+        "updatePageAssertion":{
+            "updateSerialNumber": "87097391"
+        }
+
+        }],
+    "Constants":{
+        "prodUrl":"https://dp.global/login",
+        "stageUrl":"https://stage.dpworks.in/login",
+        "location":{
+            "latitude": 24.477423,
+            "longitude": 86.676728,
+            "accuracy": 100
+          }
+    }
+}
+
