@@ -29,6 +29,7 @@
     "Constants":{
         "prodUrl":"https://dp.global/login",
         "stageUrl":"https://stage.dpworks.in/login",
+        "updateStageUrl":"https://stage.dpworks.in/update",
         "location":{
             "latitude": 24.477423,
             "longitude": 86.676728,

@@ -1,7 +1,8 @@
-import {WebInteraction} from '../hooks/webInteraction'
+
 const locators = require('../locator/locators.json')
 const registrationDataset = require('../testdata/datasetQA.json')
 import {RegistrationPageAssertion} from '../assertion/RegistrationPageAssertion'
+import {WebInteraction} from '../hooks/WebInteraction'
 exports.RegistrationPage = class RegistrationPage{
     constructor(page){
         this.page=page

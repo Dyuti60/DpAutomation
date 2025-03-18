@@ -17,5 +17,15 @@
         "pincode" : "785001",
         "state" : "Assam",
         "district" : "Jorhat"
-        }]
+        }],
+    "Update":[
+        {"serialNumber" : "87097391"},
+        {"suggestedMemberName" : "Dyuti", "suggestedGuardianName" : "Dutta", "suggestedRitwikName" : "ANINDYADYUTI CHAKRAVARTY"},
+        {"familyCode" : "000053341600", "familyCodeMemberName" : "SAPTAMI  DUTTA", "phoneNumber" : "8765678767", "email" : "dyuti@gmail.com"},
+        {"permAddress" : "Jorhat Kolkata", "permLandmark" : "Jorhat", "permPincode" : "700005",
+        "permPostOffice" : "Ahritola S.O", "permAddressDistrict" : "Kolkata", "permAddressState" : "West Bengal",
+        "presAddress" : "Kolkata Kolkata", "presLandmark" : "Jorhat", "presPincode" : "700005", "presPostOffice" : "Ahritola S.O",
+        "presAddressDistrict" : "Kolkata", "presAddressState" : "West Bengal"},
+        {"comments":"Updated data", "workersInvolved" : "ACHYUT CHANDRA SHARMA"}
+    ]
 }
