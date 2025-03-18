@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test":"npx playwright test src/tests --project chromium --headed",
-    "debug":"npx playwright test src/tests --project chromium --debug --headed"
+    "test": "npx playwright test src/tests --project chromium --headed && allure serve allure-results",
+    "debug": "npx playwright test src/tests --project chromium --debug --headed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.51.0",
-    "@types/node": "^22.13.10"
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10",
+    "allure-playwright": "^3.2.0"
   }
 }

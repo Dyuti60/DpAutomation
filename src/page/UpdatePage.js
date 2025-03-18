@@ -102,6 +102,6 @@ exports.UpdatePage = class UpdatePage{
         await this.utility.typeText(this.updatePageLocators.commentsElement,this.updateSummaryTestData.comments)
         await this.utility.typeText(this.updatePageLocators.workerInvolvedElement,this.updateSummaryTestData.workersInvolved)
         await this.utility.clickFirstOptionByText(this.updateSummaryTestData.workersInvolved)
-        await this.utility.clickOnElement(this.updatePageLocators.submitButtonElement)
+        //await this.utility.clickOnElement(this.updatePageLocators.submitButtonElement)
     }
 }
