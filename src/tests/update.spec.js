@@ -1,8 +1,5 @@
 const {test, chromium} = require('@playwright/test')
 const {loginFixture} = require('../fixtures/loginFixtures')
-const constants = require('../constant/constant.json')
-const testData = require('../testdata/datasetQA.json')
-const locators = require('../locator/locators.json')
 import {UpdatePage} from '../page/UpdatePage'
 loginFixture('Update Functionality', async ({login})=>{
     const page = await login

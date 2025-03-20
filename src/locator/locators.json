@@ -119,6 +119,50 @@
         "commentsWebLabelElement" : "//span[contains(@class,'input-text') and contains(text(),'Comments *')]",
         "workersInvolvedWebLabelElement" : "//span[contains(@class,'worker-text') and contains(text(),'Search and select any workers (ADJ/JK/SPR) who are involved in updation')]",
         "submitButtonElement" : "//button[normalize-space()='Submit']"
+    },
+    "masterSearchPageLocators":{
+        "masterSearchFromNavigationMenu":"//span[@class='sidebar-text' and contains(normalize-space(),'Master Search')]",
+        "enterGlobalSearchStringElement":"//input[@type='text']",
+        "clearButtonElement":"//button[@type='reset' and contains(normalize-space(),'Clear')]",
+        "searchButtonElement":"//button[@type='submit' and contains(normalize-space(),'Search')]",
+        "noDataFoundElement":"//p[normalize-space()='No data found!']",
+        "globalSearchPageHeadingElement":"//span[@class='details-text' and contains(normalize-space(),'Master search')]",
+        "globalSearchTabHeadingElement":"//li[@class='linkTabs linkTabactive' and contains(text(),'Global Search')]",
+        "enterGlobalSearchStringWebLabelElement":"//label[@class='inpLabel' and contains(text(),'Search by name')",
+        "dateRefreshElement":"//span[@class='last-date' and contains(text(),'Last Refreshed Date')]"
+    },
+    "datumPrintAndMonitorPageLocators":{
+        "":""
+
+    },
+    "dpnfPageLocators":{
+
+    },
+    "workHistoryPageLocators":{
+
+    },
+    "findDetailsPageLocators":{
+
+    },
+    "namesToUpdatePageLocators":{
+
+    },
+    "defaulterListPageLocators":{
+
+    },
+    "reachDefaulterPageLocators":{
+
+    },
+    "accountSettingsPageLocators":{
+
+    },
+    "oblateRegisterPageLocators":{
+
+    },
+    "pointOfContactPageLocators":{
+
+    },
+    "manageUserPageLocators":{
 
     }
 }
